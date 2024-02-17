@@ -1,0 +1,22 @@
+//  child: FutureBuilder(
+//           future: getNews,
+//           builder: (context, snapshot) {
+//             if (snapshot.hasData) {
+//               final res = snapshot.data;
+//               final data = res!.articles;
+
+//               return ListOfArticles(data: data);
+//             }
+//             //the data is fetch or get , waiting data
+//             if (snapshot.connectionState == ConnectionState.waiting) {
+//               return const Center(
+//                 child: CircularProgressIndicator(
+//                   color: Colors.blueAccent,
+//                 ),
+//               );
+//             }
+//             //data =null , error in connection
+//             return const Center(
+//               child: Text('The server have error , please try again'),
+//             );
+//           }),

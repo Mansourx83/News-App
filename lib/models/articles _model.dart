@@ -1,15 +1,15 @@
-class ArticlesModel {
+class NewsModel {
   final String status;
   final int totalResults;
   final List<Article> articles;
 
-  ArticlesModel({
+  NewsModel({
     required this.status,
     required this.totalResults,
     required this.articles,
   });
 
-  factory ArticlesModel.fromJson(Map<String, dynamic> json) => ArticlesModel(
+  factory NewsModel.fromJson(Map<String, dynamic> json) => NewsModel(
         status: json["status"],
         totalResults: json["totalResults"],
         articles: List<Article>.from(
