@@ -1,18 +1,20 @@
 # Flutter News App
 
-This Flutter project is a dynamic News App that utilizes a RESTful API to provide users with the latest news articles. The app features a captivating splash screen with animated text, setting an engaging tone right from the start. Users can click on any article to access detailed information and stay informed.
+This dynamic Flutter project serves as a feature-rich News App, leveraging a RESTful API to deliver the latest news articles. The app's engaging splash screen, complete with animated text, sets a captivating tone from the moment it launches. Users can seamlessly explore news articles, accessing detailed information with just a tap.
 
 ## Features
 
-- **RESTful API Integration:** Fetch real-time news data to keep users updated.
-- **Animated Splash Screen:** An eye-catching introduction for an engaging user experience.
-- **Article Details:** View comprehensive information by clicking on any news article.
-- **User-Friendly Interface:** Navigate seamlessly through the app for a pleasant reading experience.
+- **RESTful API Integration:** Real-time news data is fetched to provide users with up-to-the-minute information.
+- **Animated Splash Screen:** An attention-grabbing introduction enhances the overall user experience.
+- **Article Details:** Dive deeper into news articles by clicking on them to access comprehensive information.
+- **User-Friendly Interface:** Navigate effortlessly through the app, ensuring a delightful reading experience.
 
 ## Tech Stack
 
-- **Flutter:** A cross-platform framework for building natively compiled applications.
+- **Flutter:** Utilized for its cross-platform capabilities, allowing the development of natively compiled applications.
 - **Dart:** The programming language used for Flutter app development.
+- **Cubit for State Management:** Adopting the Cubit state management pattern to efficiently manage and update the app's state, ensuring a responsive and reactive user interface.
+- **connectivity_plus for Network Handling:** Integrated the `connectivity_plus` package to handle network connectivity seamlessly, providing a robust solution for managing online and offline states.
 
 ## Getting Started
 
@@ -23,4 +25,4 @@ To run the app locally:
 3. Install dependencies: `flutter pub get`
 4. Run the app: `flutter run`
 
-Feel free to explore, contribute, or use this project as a foundation for your own News App. Happy coding!
+Explore, contribute, or use this project as a foundation for your News App. Happy coding!
